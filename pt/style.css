@@ -1,0 +1,39 @@
+.event-banner{
+    width: 90%;
+    text-align: center;
+}
+
+.event-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-cantinho{
+    background-color: #004AAD;
+    width: 20%;
+    height: 20%;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1050px){
+    /*Tablets*/
+    
+    .logo-cantinho{
+        width: 25%;
+        height: 25%;
+    }
+
+    .event-banner{
+        width: 115%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    /*Smartphone*/
+
+    .logo-cantinho{
+        width: 35%;
+        height: 35%;
+    }
+}
